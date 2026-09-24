@@ -36,4 +36,14 @@ An ORF-finding run was made on Galaxy dataset 8 and returned about 30.9 million 
 
 ## Evidence
 
-Add clearly named screenshots of the Galaxy History, original statistics, sorted lengths, filtered statistics, and the corrected small-region ORF results to `screenshots/`.
+## Evidence
+
+- [Galaxy history](screenshots/galaxy_history.png)
+- [Original genome preview](screenshots/original_genome.png)
+- [Original genome details](screenshots/original_genome_details.png)
+- [Original assembly statistics](screenshots/original_statistics_1.png)
+- [Original GC content](screenshots/original_statistics_2.png)
+- [Longest sequences](screenshots/longest_sequences.png)
+- [Filtered assembly statistics](screenshots/filtered_statistics_1.png)
+- [Filtered GC content](screenshots/filtered_statistics_2.png)
+
