@@ -1,0 +1,39 @@
+# Genome Exploration II
+
+**Name:** Shekhan Fredianne C. Trayvilla  
+**Activity:** Basic Genome Structure and Sequence Exploration Using Galaxy  
+**Genome:** Anas strepera (the FASTA header uses Mareca strepera)  
+**NCBI assembly accession:** To be confirmed from the original NCBI assembly page  
+**Original Galaxy dataset:** `Anas_strepera_genome_original.fna.gz.gz`  
+**Original file size in Galaxy:** 383.8 MB  
+**Galaxy History:** https://usegalaxy.org/histories/view?id=bbd44e69cb8906b56089316a64f25f43
+
+## Objective
+
+I examined the structure of the genome assembly used in my previous assignment. I calculated assembly statistics, sorted its sequences by length, and compared the original assembly with a copy containing sequences at least 10,000 bp long.
+
+## Tools and steps
+
+1. **gfastats:** Calculated assembly statistics for the original genome FASTA (Galaxy dataset 1; statistics in dataset 2).
+2. **Compute sequence length:** Calculated the length of each FASTA sequence (dataset 3).
+3. **Sort:** Sorted the sequence-length table from longest to shortest (dataset 7).
+4. **Filter sequences by length:** Kept sequences at least 10,000 bp long in a copy of the original FASTA (filtered copy in dataset 4).
+5. **gfastats:** Calculated statistics for the filtered copy (datasets 5 and 9).
+
+The original FASTA was retained. The original and filtered statistics are compared in `results_table.md`.
+
+## Main findings
+
+The original assembly contains 1,156 scaffolds totaling 1,300,614,387 bp. Its largest scaffold is 205,626,557 bp, scaffold N50 is 66,097,916 bp, scaffold L50 is 6, and GC content is 42.39%.
+
+The 10 kb filter retained 1,104 scaffolds totaling 1,300,429,993 bp. It removed 52 short scaffolds totaling 184,394 bp, about 0.014% of the original assembly length. The scaffold N50 and L50 stayed the same because the removed scaffolds contributed very little to the total length. Filtering was an exercise for examining the assembly; it does not automatically make the genome better.
+
+The five longest sequences are listed in `results_table.md`.
+
+## ORF exploration status
+
+An ORF-finding run was made on Galaxy dataset 8 and returned about 30.9 million regions. Dataset 8 still contains the full 1,156-scaffold assembly, so this run does not represent the required small exploration of one selected sequence or manageable region. A smaller ORF analysis and its tool settings and results still need to be added. An ORF alone is not proof of a real gene.
+
+## Evidence
+
+Add clearly named screenshots of the Galaxy History, original statistics, sorted lengths, filtered statistics, and the corrected small-region ORF results to `screenshots/`.
