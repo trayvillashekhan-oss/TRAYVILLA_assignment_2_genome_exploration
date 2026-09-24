@@ -27,8 +27,6 @@
 
 ## ORF exploration
 
-To be completed using one selected sequence or a manageable extracted region. Record its identifier or coordinates, ORF tool and minimum-size setting, number of ORFs, and longest ORF length.
-
 | Selected sequence | Tool | Minimum ORF length | Candidate ORFs | Longest ORF |
 | --- | --- | ---: | ---: | ---: |
 | CBDIHC010001094.1 (2,000 bp) | ORFipy, both strands | 150 nt | 11 | 1,497 nt |
