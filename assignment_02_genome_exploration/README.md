@@ -36,6 +36,9 @@ I used ORFipy to examine one 2,000 bp sequence from the Anas strepera assembly. 
 
 ## Evidence
 
+- [Small-region ORF results](screenshots/small_region_orfs.png)
+- [ORFipy settings](screenshots/small_region_orf_settings.png)
+
 ## Evidence
 
 - [Galaxy history](screenshots/galaxy_history.png)
