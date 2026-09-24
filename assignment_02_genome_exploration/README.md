@@ -32,7 +32,7 @@ The five longest sequences are listed in `results_table.md`.
 
 ## ORF exploration status
 
-An ORF-finding run was made on Galaxy dataset 8 and returned about 30.9 million regions. Dataset 8 still contains the full 1,156-scaffold assembly, so this run does not represent the required small exploration of one selected sequence or manageable region. A smaller ORF analysis and its tool settings and results still need to be added. An ORF alone is not proof of a real gene.
+I used ORFipy to examine one 2,000 bp sequence from the Anas strepera assembly. Using the standard genetic code, both strands, and a minimum ORF length of 150 nucleotides, the tool found 11 candidate ORFs. These are predicted regions, not confirmed genes.
 
 ## Evidence
 
